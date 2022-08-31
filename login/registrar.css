@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon {
+    width: 120px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.header h3 {
+    font-size: 18px;
+}
+
+.login {
+    background-color: rgb(243, 240, 240);
+    border-radius: 10px;
+    border: solid rgb(224, 222, 222) 1px;
+    font-size: 15px;
+    margin-bottom: 18px;
+    width: 350px;
+}
+
+.txt {
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-bottom: 8px;
+}
+
+.iconPerson {
+    display: inline-block;
+    width: 22px;
+    margin-top: 18px;
+    margin-bottom: 0;
+    margin-left: 69%;
+    background-color: transparent;
+}
+
+.iconEmail {
+    width: 24px;
+    margin-top: 18px;
+    margin-bottom: 0;
+    margin-left: 73%;
+    background-color: transparent;
+}
+
+.iconPassword {
+    width: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 62%;
+    background-color: transparent;
+}
+
+.iconPassword2 {
+    width: 22px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 46%;
+    background-color: transparent;
+}
+
+.inputs {
+    display: block;
+    padding: 8px;
+    border-style: none;
+    margin-left: 10px;
+    border: solid rgb(212, 208, 208) 1px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    width: 89%;
+}
+
+.sesion {
+    font-size: 15px;
+    width: 93%;
+    margin-left: 13px;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(50, 113, 250);
+    color: white;
+}
+
+.sesion:hover {
+    cursor: pointer;
+    background-color: rgb(69, 132, 248);
+}

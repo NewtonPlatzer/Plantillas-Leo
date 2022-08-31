@@ -10,7 +10,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 180px 1fr;
+    grid-template-columns: 180px 500px;
 }
 
 /* Barra lateral */
@@ -75,7 +75,10 @@ body {
     margin-bottom: 30px;
 }
 
-
+.mainContent {
+    margin-left: 54%;
+    width: 600px;
+}
 
 .tituloHoja {
     margin-left: 40px;

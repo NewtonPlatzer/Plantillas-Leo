@@ -1,4 +1,4 @@
-/* Hoja Ingresos Egresos */
+/* Hoja Ingresos Egresos
 
 * {
     margin: 0;
@@ -13,7 +13,7 @@ body {
     grid-template-columns: 180px 1fr;
 }
 
-/* Barra lateral */
+/* Barra lateral 
 .aside {
     margin-right: 24px;
     background-color: #D9D9D9;
@@ -22,15 +22,15 @@ body {
 }
 
 .logo {
-    /* Texto */
+    /* Texto 
     font-size: 20px;
     font-weight: 400px;
     text-align: center;
-    /* Margenes */
+    /* Margenes 
     margin-top: 48px;
     margin-bottom: 80px;
     margin-left: 10%;
-    /* Paddings */
+    /* Paddings 
     padding: 16px;
     padding-left: 38px;
     padding-right: 36px;
@@ -149,4 +149,152 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #D9D9D9;
+} */
+
+/* Hoja Empresas */
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 180px 500px;
+}
+
+/* Barra lateral */
+.aside {
+    margin-right: 24px;
+    background-color: #D9D9D9;
+    padding-bottom: 266px;
+    width: 180px;
+}
+
+.logo {
+    /* Texto */
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+    /* Margenes */
+    margin-top: 48px;
+    margin-bottom: 80px;
+    margin-left: 10%;
+    /* Paddings */
+    padding: 16px;
+    padding-left: 38px;
+    padding-right: 36px;
+
+    background-color: white;
+    display: inline-block;
+
+}
+
+.buttonsAside {
+    margin-bottom: 30px;
+    margin-left: 10%;
+    padding: 12px;
+    padding-left: 2px;
+    width: 140px;
+    border-style: none;
+    background-color: rgb(100, 100, 100);
+
+
+}
+
+.buttonsAside p {
+    text-align: start;
+    margin-left: 10px;
+}
+
+.buttonsAside a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttonsAside:hover {
+    background-color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+
+.mainContent {
+    margin-left: 60%;
+    width: 600px;
+}
+
+.tituloHoja {
+    margin-right: 10%;
+    margin-bottom: 6px;
+}
+
+.underLine {
+    width: 40%;
+    
+}
+
+.divBoton {
+    display: flex;
+    justify-content: end;
+    margin-right: 12px;
+}
+
+.divBoton button {
+    background-color: #D9D9D9;
+    font-size: 15px;
+    border-style: none;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 6px;
+}
+
+.divBoton button:hover {
+    background-color: #e6e4e4;
+    cursor: pointer;
+}
+
+.titulos {
+    background-color: #c4c4c4;
+    padding-left: 10px;
+    box-shadow: 0px 4px 10px 1px rgba(20, 20, 20, 0.3);
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titulos li {
+    display: inline-block;
+    font-weight: 550;
+    font-size: 14px;
+
+}
+
+.hoja {
+    margin-left: 10px;
+    margin-right: 12px;
+    background-color: #D9D9D9;
+}
+
+.lines {
+
+    margin-top: 40px;
+}
+
+#divTotal {
+    margin-top: 20px;
+    margin-left: 74%;
 }
